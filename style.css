@@ -1,0 +1,55 @@
+
+/* del 1*/  
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    transition: 3s; 
+}
+.square:hover{
+    background-color: lightgreen;
+    transition: 3s;
+}
+
+/* del 2*/
+@keyframes pulse{
+    from{background-color: black;}
+    to{background-color: lightgreen;}    
+}
+.square2 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+/* del 3*/
+input{
+    background-color: lightgrey;
+    transition: 1s;
+}
+
+input:hover{
+    background-color: lightpink;
+    transition:1s;
+}
+/* del 4*/
+table {
+    border-width: 1px;
+    border-style: solid;
+    border-spacing: 0;
+}
+tr {
+    background-color: lightpink;
+    transition: 2s;
+    
+}
+th, td {
+   padding: 8px;
+}
+tr:hover {
+    background-color: lightgray;
+    transition: 2s;
+}
